@@ -1,4 +1,10 @@
-{font-family:'Exo 2', sans-serif;}
+@import url('http://fonts.googleapis.com/css?family=Exo+2:400,700,700italic,400italic,200,200italic,300,300italic');
+
+@import url(yeti-bootstrap.min.css);
+
+* {
+    font-family: 'Exo 2', sans-serif;
+}
 
 /* Full height pages for fixed footer */
 html,
