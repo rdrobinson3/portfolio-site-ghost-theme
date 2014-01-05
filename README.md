@@ -1,10 +1,1 @@
-GhostBoot
-=========
-
-A bootstrap ghost theme
-
-Demo http://nodejs-thetathames.rhcloud.com/
-
-Work in progress...
-
-MIT Licence
+Theme for my portfolio site. Using GhostBoot as the base.
