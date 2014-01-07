@@ -4,7 +4,6 @@
 
 
 @import "reset.css";
-@import "yeti-bootstrap.min.css";
 @import "post.css";
 @import "font-awesome.min.css";
 
@@ -22,38 +21,9 @@ a {
 	color:#4C4C3D;
 }
 a:hover {
-	color:#1b7a70;
+	color:#F2A222;
 }
-#site-header {
-	padding-top:70px;
-	margin-top: 2%;
-	background:#efefef url(/assets/css/img/bg-siel.png);
-	border-bottom:2px ridge #1b7a70;
-}
-#site-header a {
-	color:#FFFFDB;
-	position: relative;
-    display: table;
-    width: 100%;
-    height: 100%;
-    background: no-repeat center center;
-    background-size: cover;
-}
-#site-header a:hover {
-	color:#E6FFFA;
-	text-decoration:none;
-}
-#site-nav {
-	background:#efefef url(/assets/css/img/bg-siel.png);
-	border-bottom:1px solid #32877E;
-}
-#site-nav a {
-	color:#FFFFDB;
-}
-#site-nav a:hover {
-	color:#E6FFFA;
-	text-decoration:none;
-}
+
 .navbar-toggle {
 	background-color:#FFFFDB;
 }
@@ -61,11 +31,6 @@ a:hover {
 	max-width:80%;
 	width:1170px;
 	margin:auto;
-}
-#site-footer {
-	background:#efefef url(/assets/css/img/bg-siel.png);
-	padding:30px;
-	border-top:2px ridge #1b7a70;
 }
 
 hr {
@@ -123,12 +88,12 @@ pre {
 	font-size: 1.9rem;
 }
 #site-article-footer {
-	color:#1b7a70;
+	color:#F2A222;
 	padding:15px;
 	border-radius:5px;
 }
 #site-article-footer a {
-	color:#1b7a70;
+	color:#F2A222;
 }
 #site-article-footer a:hover {
 	color:#E6FFFA;
@@ -180,24 +145,6 @@ pre {
 #site-tags:hover {
 	border: solid 2px #8DBCB8;
 }
-
-
-/*############################################
-	            Footer
-##############################################*/
-#site-footer {
-	color:#5FA29B;
-}
-#site-footer a {
-	color:#FFFFDB;
-}
-#site-footer a:hover {
-	text-decoration:none;
-	color:#E6FFFA;
-}
-
-
-
 
 /*############################################
 	     Pagination
