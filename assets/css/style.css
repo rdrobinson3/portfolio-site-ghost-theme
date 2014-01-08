@@ -41,8 +41,10 @@ pre {
 
 /*---Responsive Images & author Avatar  at Post----*/
 #article-container img {
-	height:auto;
-	width:100%;
+    display:block;
+    margin:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
