@@ -2,15 +2,13 @@
 {{> header}}
 <main id="main" class="container" role="main">
 {{#post}}
-<a href="/" >&larr; Go Back</a>
+<a href="/" id="backNav" >&larr; Go Back</a>
 <article role="article" id="article-container">
   <header>
  <h1><a href="{{{url}}}">{{title}}</a></h1>
- <p>by <a href="{{author.website}}" target="_blank">{{author}}</a></p>
- <time datetime="{{date format="DD MMM YYYY"}}">
- <span></span> 
- {{date format='DD MMM YYYY'}}
- </time>
+ <p>by <a href="{{author.website}}" target="_blank">{{author}}</a> on
+      <i class="fa fa-calendar fa- text-muted"> {{date format='D/M/YYYY'}}</i></p>
+ <span></span>
 </header>
   <div>
     {{content}}

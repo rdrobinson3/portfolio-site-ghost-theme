@@ -16,18 +16,8 @@ hr {
 	border-style: solid;
 	border-color: #D1E4E2; 
 	border-width: 1px 0 0 0;
-	border-radius: 20px;
 }
-hr:before {
-	 display: block;
-	 content: ""; 
-	 height: 30px;
-	 margin-top: -31px;
-	 border-style: solid;
-	 border-color: #D1E4E2;
-	 border-width: 0 0 1px 0;
-	 border-radius: 20px;
-}
+
 pre {
  white-space: pre-wrap;       /* css-3 */
  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -56,6 +46,14 @@ pre {
 /*############################################
 	     Article Front
 ##############################################*/
+
+#main{
+    background: #ffffff;
+    -webkit-box-shadow: 0 4px 4px 0 rgba(209,228,226,1);
+    box-shadow: 0 4px 4px 0 rgba(209,228,226,1);
+    padding-top: 15px;
+}
+
 #article-container a {
 	text-decoration:none;
 }
