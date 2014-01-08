@@ -11,28 +11,6 @@
 /*##########################################
 	     General Styles
 ############################################*/
-body {
-	background:#efefef url(/assets/css/img/bg-5.png);
-	color: #5C6767;
-    font-family: 'Roboto Slab',Georgia,'Times New Roman',serif;
-	font-size:1.4em;
-}
-a {
-	color:#4C4C3D;
-}
-a:hover {
-	color:#F2A222;
-}
-
-.navbar-toggle {
-	background-color:#FFFFDB;
-}
-#site-front-container {
-	max-width:80%;
-	width:1170px;
-	margin:auto;
-}
-
 hr {
 	height: 30px;
 	border-style: solid;
@@ -80,9 +58,6 @@ pre {
 	text-decoration:none;
 }
 
-.main-header a {
-	text-decoration:none;
-}
 #article-container {
 	padding:10px;
 	font-size: 1.9rem;
@@ -96,7 +71,7 @@ pre {
 	color:#F2A222;
 }
 #site-article-footer a:hover {
-	color:#E6FFFA;
+	color:#515151;
 }
 
 /*############################################
@@ -108,8 +83,6 @@ pre {
 #site-social-icons i {
 	margin:3px;
 }
-
-
 
 
 
@@ -132,7 +105,7 @@ pre {
     background: #f3f3f3;
     background: -webkit-gradient(linear, 0% 40%, 0% 70%, from(#F5F5F5), to(#F1F1F1));
     background: -moz-linear-gradient(linear, 0% 40%, 0% 70%, from(#F5F5F5), to(#F1F1F1));
-    border: solid 1px #1b7a70;
+    border: solid 1px #515151;
     border-radius: 5px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -152,20 +125,5 @@ pre {
 .page-number {
 	padding-left:10px;
 	padding-right:10px;
-}
-
-
-
-
-/*############################################
-	          Author
-##############################################*/
-#site-front-author {
-    bottom: 15%;
-	top:47%;
-    max-width:50%;
-    padding:5px;
-    margin:auto;
- 
 }
 

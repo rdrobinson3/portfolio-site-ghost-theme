@@ -48,6 +48,10 @@ body {
     font-size: 30px
 }
 
+.navbar .navbar-brand:hover{
+    color: #F2A222;
+}
+
 .navbar .navbar-brand .inner-logo {
     color: #DBDBDB;
     font-weight: 200;
@@ -139,4 +143,9 @@ a{
 
 a:hover{
     color: #515151;
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
 }
