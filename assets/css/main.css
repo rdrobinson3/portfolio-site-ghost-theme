@@ -30,7 +30,7 @@ body {
     padding-top: 10px;
     background-color: #DBDBDB;
     border-top-style: solid;
-    border-color: #F2A222;
+    border-color: #fc542d;
     border-top-width: 2px;
 }
 
@@ -39,14 +39,14 @@ body {
 }
 
 .navbar .navbar-brand {
-    color: #F2A222;
+    color: #fc542d;
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
     font-size: 30px
 }
 
 .navbar .navbar-brand:hover{
-    color: #F2A222;
+    color: #fc542d;
 }
 
 .navbar .navbar-brand .inner-logo {
@@ -101,7 +101,7 @@ body {
 }
 
 .web {
-    color: #F2A222;
+    color: #fc542d;
 }
 
 .social-toolbar a:link {
@@ -113,7 +113,7 @@ body {
 }
 
 .social-toolbar a:hover {
-    color: #F2A222;
+    color: #fc542d;
 }
 
 .social-toolbar a:active {
@@ -135,7 +135,7 @@ body {
 }
 
 a{
-    color: #F2A222;
+    color: #fc542d;
 }
 
 a:hover{
