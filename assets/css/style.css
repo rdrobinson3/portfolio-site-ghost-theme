@@ -52,6 +52,7 @@ pre {
     -webkit-box-shadow: 0 4px 4px 0 rgba(209,228,226,1);
     box-shadow: 0 4px 4px 0 rgba(209,228,226,1);
     padding-top: 15px;
+    max-width: 700px;
 }
 
 #article-container a {
